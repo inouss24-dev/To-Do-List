@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    border: solid 1px greenyellow;
+    padding: 20px;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin-left: 25%;
+}
+.container-input{
+    margin-top: 20px ;
+}
+.container-input input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(192, 192, 192, 0.274);
+}
+.container-input input::placeholder{
+    color: black;
+    padding-left: 5px;
+}
+.container-input button {
+    width: 30px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: -10px;
+    background-color: rgb(27, 255, 27);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+
+}
+.succes1 {
+    margin-top: 20px;
+}
+.succes1 p{
+    color: rgb(38, 202, 98);
+    text-align: center;
+}
+.succes1 .error{
+    color: red;
+    text-align: center;
+} 
+
+.list{
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.listBackground{
+    background-color: rgb(38, 202, 98);
+}
